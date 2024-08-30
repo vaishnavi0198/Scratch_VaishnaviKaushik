@@ -1,0 +1,31 @@
+.App {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.labels,
+.actions,
+.sticker {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 30%;
+}
+
+button {
+    display: block;
+    margin: 10px 0;
+}
+
+.sticker {
+    transition: all 0.5s ease;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: yellow;
+    border-radius: 10px;
+}
